@@ -1,0 +1,43 @@
+body{
+  background-color:darkolivegreen;
+  margin: 0px;
+  padding: 20px;
+
+}
+.App{
+background-color: whitesmoke;
+height: 500px;
+max-width: 700px;
+border-radius: 5px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.dice{
+  display: grid;
+  grid-template: auto auto/ repeat(5,1fr);
+  gap:20px;
+}
+.roll-dice{
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+.roll-dice:hover{
+  outline: none;
+}
+.roll-dice:active{
+  box-shadow: inset 5px 5px 10px -5px rgba(0,0,0,0.7);
+}
+.heading{
+  font-size: 34px;
+  color: black;
+  display: flex;
+  align-self: center;
+}
